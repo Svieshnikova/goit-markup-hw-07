@@ -85,8 +85,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:hover, .hero-btn:focus {
   background-color: #188ce8;
 }
 
@@ -104,8 +103,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms linear, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-item:hover,
-.button-item:focus {
+.button-item:hover, .button-item:focus {
   color: #ffffff;
   background-color: var(--second-color);
   cursor: pointer;
@@ -153,13 +151,16 @@ body {
   height: 30px;
 }
 
-.modal-close:hover .button-close,
-.modal-close:focus .button-close {
+.modal-close:hover, .modal-close:focus {
   color: var(--second-color);
 }
 
 .button-close {
   fill: currentColor;
+}
+
+.button-close:hover, .button-close:focus {
+  color: var(--second-color);
 }
 
 .is-hidden {
@@ -189,8 +190,7 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus,
-.form-text:focus {
+.form-input:focus {
   outline: none;
   border: 1px solid #2196f3;
   cursor: pointer;
@@ -238,6 +238,12 @@ body {
   border-radius: 4px;
   resize: none;
   padding: 12px 16px;
+}
+
+.form-text:focus {
+  outline: none;
+  border: 1px solid #2196f3;
+  cursor: pointer;
 }
 
 .form-text::placeholder {
@@ -305,9 +311,8 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-btn:hover,
-.check-btn:focus {
-  background-color: #188ce8;
+.check-btn:hover, .check-btn:focus {
+  background: #188ce8;
 }
 
 .logo {
@@ -351,6 +356,10 @@ body {
   color: var(--title-color);
 }
 
+.subtitle-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .current {
   color: var(--second-color);
 }
@@ -359,18 +368,8 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subtitle-link:hover,
-.subtitle-link:focus {
+.subtitle-link:hover, .subtitle-link:focus {
   color: var(--second-color);
-}
-
-.subtitle-studio-link:hover,
-.subtitle-studio-link:focus {
-  color: var(--second-color);
-}
-
-.subtitle-item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .contacts-item:not(:last-child) {
@@ -380,6 +379,10 @@ body {
 .subtitle-studio-link {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subtitle-studio-link:hover, .subtitle-studio-link:focus {
+  color: var(--second-color);
 }
 
 .subtitle-studio-link::after {
@@ -405,8 +408,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subtitle-portfolio-link:hover,
-.subtitle-portfolio-link:focus {
+.subtitle-portfolio-link:hover, .subtitle-portfolio-link:focus {
   color: var(--second-color);
 }
 
@@ -446,8 +448,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:hover, .contacts-link:focus {
   color: var(--second-color);
 }
 
@@ -655,14 +656,13 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social-icon {
-  fill: currentColor;
-}
-
-.team-social-link:hover,
-.team-social-link:focus {
+.team-social-link:hover, .team-social-link:focus {
   background-color: var(--second-color);
   color: #ffffff;
+}
+
+.team-social-icon {
+  fill: currentColor;
 }
 
 .team-social-list {
@@ -708,14 +708,13 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms linear;
 }
 
-.clients-picture-icon {
-  fill: currentColor;
-}
-
-.clients-picture-link:hover,
-.clients-picture-link:focus {
+.clients-picture-link:hover, .clients-picture-link:focus {
   color: var(--second-color);
   border-color: var(--second-color);
+}
+
+.clients-picture-icon {
+  fill: currentColor;
 }
 
 .footer {
@@ -797,13 +796,12 @@ b {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-network-icon {
-  fill: currentColor;
+.social-network-link:hover, .social-network-link:focus {
+  background-color: var(--second-color);
 }
 
-.social-network-link:hover,
-.social-network-link:focus {
-  background-color: var(--second-color);
+.social-network-icon {
+  fill: currentColor;
 }
 
 .social-network-list {
@@ -871,9 +869,8 @@ b {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscription-btn:hover,
-.subscription-btn:focus {
-  background-color: var(--second-color);
+.subscription-btn:hover, .subscription-btn:focus {
+  background: #188ce8;
 }
 
 .send-subscription {
@@ -935,14 +932,13 @@ b {
   color: var(--text-color);
 }
 
-.servis-item-link:hover,
-.servis-item-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .servis-item-link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.servis-item-link:hover, .servis-item-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .description {
