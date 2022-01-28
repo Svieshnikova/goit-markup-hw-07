@@ -1,4 +1,4 @@
-.hero {
+.hero-content {
   padding: 200px 0;
   background-color: var(--background-color);
   background-image: linear-gradient(
@@ -14,7 +14,7 @@
   margin-right: auto;
 }
 
-.hero-title {
+.hero-content__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;

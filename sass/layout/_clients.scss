@@ -1,4 +1,4 @@
-.clients-title {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -7,16 +7,16 @@
   color: var(--title-color);
   margin-bottom: 50px;
 }
-.clients-list {
+.clients-box {
   display: flex;
 }
-.clients-picture {
+.clients__picture {
   flex-basis: calc(100% / 6 - 150px);
 }
-.clients-picture:not(:last-child) {
+.clients__picture:not(:last-child) {
   margin-right: 30px;
 }
-.clients-picture-link {
+.clients-picture__link {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
