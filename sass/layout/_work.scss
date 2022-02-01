@@ -10,10 +10,11 @@
   position: relative;
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
-.work__item:last-child {
-  margin-right: 0;
-}
+
 .work__title {
   font-weight: 700;
   font-size: 36px;
